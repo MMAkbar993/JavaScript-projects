@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hind Madurai', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.containar{
+    margin-right: 30px;
+    margin-top: 250px;
+    padding: 20px;
+    background-color: blueviolet;
+}
+.containar .values{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    /* padding: 20px; */
+    background-color: blueviolet;
+}
+input{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+button{
+    margin: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 9px;
+    padding: 20px;
+    background-color: aquamarine;
+
+}
+
+.bmi-status{
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 10px;
+    color: aliceblue;
+}
